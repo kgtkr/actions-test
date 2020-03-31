@@ -16,7 +16,7 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
         echo $ref
-        echo $PATH
+        ls -al $HOME
       env:
         ref: ${{github.ref}}
 
