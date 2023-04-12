@@ -11,5 +11,5 @@ jobs:
     - uses: actions/checkout@v1
     - name: test
       run: |
-        sudo sysctl -w vm.max_map_count=262144
+        echo "test=1" > $GITHUB_OUTPUT
 
